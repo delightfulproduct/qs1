@@ -11,7 +11,7 @@ function setupEvents() {
     var mTB1 = document.getElementById("tb1");
     mTB1.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide1.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide1.JPG");
         mTB1.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -22,7 +22,7 @@ function setupEvents() {
     var mTB2 = document.getElementById("tb2");
     mTB2.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide2.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide2.JPG");
         mTB2.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -33,7 +33,7 @@ function setupEvents() {
     var mTB3 = document.getElementById("tb3");
     mTB3.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide3n.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide3n.JPG");
         mTB3.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -44,7 +44,7 @@ function setupEvents() {
         var mTB4 = document.getElementById("tb4");
     mTB4.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide4n.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide4n.JPG");
         mTB4.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -55,7 +55,7 @@ function setupEvents() {
         var mTB5 = document.getElementById("tb5");
     mTB5.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide5.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide5.JPG");
         mTB5.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -66,7 +66,7 @@ function setupEvents() {
         var mTB6 = document.getElementById("tb6");
     mTB6.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide6n.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide6n.JPG");
         mTB6.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -77,7 +77,7 @@ function setupEvents() {
         var mTB7 = document.getElementById("tb7");
     mTB7.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide7n.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide7n.JPG");
         mTB7.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -88,7 +88,7 @@ function setupEvents() {
         var mTB8 = document.getElementById("tb8");
     mTB8.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide8.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide8.JPG");
         mTB8.className = "thumbnail_selected";
         
         if (tbInFocus != null)
@@ -99,7 +99,7 @@ function setupEvents() {
         var mTB9 = document.getElementById("tb9");
     mTB9.addEventListener('click', function(e) {
         
-        rightPaneImg.setAttribute("src", "assets/Slide9.jpg");
+        rightPaneImg.setAttribute("src", "assets/Slide9.JPG");
         mTB9.className = "thumbnail_selected";
         
         if (tbInFocus != null)

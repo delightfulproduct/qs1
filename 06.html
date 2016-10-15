@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>06</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/06.css?crc=109133462" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/06.css?crc=396762250" id="pagesheet"/>
    </head>
  <body>
 
@@ -28,13 +28,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </video>
 
    </div>
-   <div class="clearfix colelem" id="pu655"><!-- group -->
-    <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u655" href="06.html"><!-- image --><img class="block" id="u655_img" src="images/reload.png?crc=81928413" alt="" data-image-width="37" data-image-height="31"/></a>
-    <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u654-4" href="06.html"><!-- content --><p>Replay</p></a>
-    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu652" href="05.html"><!-- container box --><div class="clearfix grpelem" id="u653-4"><!-- content --><p>PREVIOUS</p></div></a>
-    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu657" href="07.html"><!-- container box --><div class="clearfix grpelem" id="u658-4"><!-- content --><p>NEXT</p></div></a>
+   <div class="clearfix colelem" id="u810-8"><!-- content -->
+    <p>Describe what this screen is about.</p>
+    <p>On a scale of 1 to 5, with 1 being Not at all helpful and 5 being Very helpful, how helpful is this page?</p>
+    <p>(Click &quot;Go to Step 7&quot; when finished)</p>
    </div>
-   <div class="verticalspacer" data-offset-top="726" data-content-above-spacer="726" data-content-below-spacer="62"></div>
+   <div class="browser_width colelem" id="u786-bw">
+    <div id="u786"><!-- group -->
+     <div class="clearfix" id="u786_align_to_page">
+      <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u655" href="06.html"><!-- image --><img class="block" id="u655_img" src="images/reload.png?crc=81928413" alt="" data-image-width="37" data-image-height="31"/></a>
+      <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u654-4" href="06.html"><!-- content --><p>Replay</p></a>
+      <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu652" href="05.html"><!-- container box --><div class="clearfix grpelem" id="u653-4"><!-- content --><p>PREVIOUS</p></div></a>
+      <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu657" href="07.html"><!-- container box --><div class="clearfix grpelem" id="u658-4"><!-- content --><p>GO TO STEP 7</p></div></a>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="795" data-content-above-spacer="794" data-content-below-spacer="62"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -46,6 +55,8 @@ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museuti
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

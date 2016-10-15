@@ -1,15 +1,17 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="quickstarter.com" resolutions="1x" timestamp="1476309778654">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="quickstarter.com" resolutions="1x" timestamp="1476490309572">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="07.css" crc="113733432" ref="07"/>
-    <file name="index.css" crc="474737354" ref="index"/>
-    <file name="03.css" crc="3980400010" ref="03"/>
-    <file name="06.css" crc="109133462" ref="06"/>
-    <file name="02.css" crc="208786923" ref="02"/>
-    <file name="05.css" crc="404215821" ref="05"/>
-    <file name="04.css" crc="532957552" ref="04"/>
+    <file name="05.css" crc="7273835" ref="05"/>
+    <file name="02.css" crc="4272884871" ref="02"/>
+    <file name="04.css" crc="4249514060" ref="04"/>
+    <file name="07.css" crc="3833771144" ref="07"/>
+    <file name="index.css" crc="224894383" ref="index"/>
+    <file name="03.css" crc="3941740518" ref="03"/>
+    <file name="06.css" crc="396762250" ref="06"/>
   </folder>
   <folder name="assets">
+    <file name="slides.html" crc="465171624" seo="true" mt="1476296540000"/>
+    <file name="01---copy.mp4" crc="4029455806" seo="true" mt="1476294256000"/>
     <file name="01.mp4" crc="3890748096" seo="true" mt="1476308665000"/>
     <file name="02.mp4" crc="3865460250" seo="true" mt="1476308672000"/>
     <file name="03.mp4" crc="351176404" seo="true" mt="1476308003000"/>
@@ -17,8 +19,6 @@
     <file name="05.mp4" crc="4014546214" seo="true" mt="1476308026000"/>
     <file name="06.mp4" crc="4256178400" seo="true" mt="1476308034000"/>
     <file name="07.mp4" crc="113898810" seo="true" mt="1476308053000"/>
-    <file name="slides.html" crc="465171624" seo="true" mt="1476296540000"/>
-    <file name="01---copy.mp4" crc="4029455806" seo="true" mt="1476294256000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:02:03:04:05:06:07"/>
@@ -32,11 +32,11 @@
   <folder name="images">
     <file name="reload.png" crc="81928413" seo="true" ref="index:02:03:04:05:06:07"/>
   </folder>
-  <file name="index.html" crc="3762219305" seo="true" mt="1476298992473" redirect="true"/>
-  <file name="02.html" crc="328952735" seo="true" mt="1476298974725" redirect="true"/>
-  <file name="03.html" crc="111518316" seo="true" mt="1476299011302" redirect="true"/>
-  <file name="04.html" crc="3929416982" seo="true" mt="1476299032250" redirect="true"/>
-  <file name="05.html" crc="4156944946" seo="true" mt="1476298962296" redirect="true"/>
-  <file name="06.html" crc="4089255247" seo="true" mt="1476300556135" redirect="true"/>
-  <file name="07.html" crc="4277802642" seo="true" mt="1476309678142" redirect="true"/>
+  <file name="index.html" crc="4015166920" seo="true" mt="1476490210676" redirect="true"/>
+  <file name="02.html" crc="4294166841" seo="true" mt="1476490240893" redirect="true"/>
+  <file name="03.html" crc="3975071351" seo="true" mt="1476490235391" redirect="true"/>
+  <file name="04.html" crc="273445462" seo="true" mt="1476490257975" redirect="true"/>
+  <file name="05.html" crc="387139801" seo="true" mt="1476489919306" redirect="true"/>
+  <file name="06.html" crc="4199077716" seo="true" mt="1476490286099" redirect="true"/>
+  <file name="07.html" crc="4094838927" seo="true" mt="1476490183689" redirect="true"/>
 </manifest>

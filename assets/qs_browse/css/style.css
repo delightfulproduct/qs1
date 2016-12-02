@@ -1,0 +1,66 @@
+
+/* Custom animations created using Animation library    
+ * Author: Sungjoon Steve Won / suwon@microsoft.com
+ * Date: October 11, 2016
+ * OXO Canvas Design Team
+ */
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+	background-color: rgb(230, 230, 230);
+
+
+}
+#leftPane {
+    width: 18vw;
+    height: 80vh;
+    padding: 5px;
+    background-color: lightgrey;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    float: left;
+    box-sizing: border-box;
+
+    
+}
+
+#rightPane {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(230, 230, 230);
+    box-sizing: border-box;
+    float:left;
+}
+
+#rightPaneImg {
+    max-height:100%; max-width:100%;
+}
+
+.thumbnail_unselected {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.thumbnail_selected {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    background: white;
+    box-sizing: border-box;
+    
+    border-style: solid;
+    border-color: coral;
+    border-width: 5px;
+}
+
+.thumbnail_selected:hover, .thumbnail_unselected:hover {
+    opacity: 0.75;
+}
+
+.selected {
+    
+}

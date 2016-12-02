@@ -1,0 +1,42 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="quickstarter.com" resolutions="1x" timestamp="1476902210032">
+  <folder name="css">
+    <file name="site_global.css" crc="3916556066"/>
+    <file name="05.css" crc="4095587935" ref="05"/>
+    <file name="02.css" crc="4116104435" ref="02"/>
+    <file name="04.css" crc="3975621800" ref="04"/>
+    <file name="07.css" crc="437776047" ref="07"/>
+    <file name="index.css" crc="160146553" ref="index"/>
+    <file name="03.css" crc="4007105078" ref="03"/>
+    <file name="06.css" crc="4116584827" ref="06"/>
+  </folder>
+  <folder name="assets">
+    <file name="slides.html" crc="465171624" seo="true" mt="1476296540000"/>
+    <file name="01---copy.mp4" crc="4029455806" seo="true" mt="1476294256000"/>
+    <file name="01.mp4" crc="3890748096" seo="true" mt="1476308665000"/>
+    <file name="02.mp4" crc="3865460250" seo="true" mt="1476308672000"/>
+    <file name="03.mp4" crc="351176404" seo="true" mt="1476308003000"/>
+    <file name="04.mp4" crc="480946177" seo="true" mt="1476308012000"/>
+    <file name="05.mp4" crc="4014546214" seo="true" mt="1476308026000"/>
+    <file name="06.mp4" crc="4256178400" seo="true" mt="1476308034000"/>
+    <file name="07.mp4" crc="113898810" seo="true" mt="1476308053000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:02:03:04:05:06:07"/>
+    <file name="museutils.js" crc="3851988764" ref="index:02:03:04:05:06:07"/>
+    <file name="whatinput.js" crc="86476730" ref="index:02:03:04:05:06:07"/>
+    <file name="museconfig.js" crc="169177150" ref="index:02:03:04:05:06:07"/>
+    <file name="pie.js" crc="3831537696" ref="index:02:03:04:05:06:07"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index:02:03:04:05:06:07"/>
+    <file name="require.js" crc="4108833657" ref="index:02:03:04:05:06:07"/>
+  </folder>
+  <folder name="images">
+    <file name="reload.png" crc="81928413" seo="true" ref="index:02:03:04:05:06:07"/>
+  </folder>
+  <file name="index.html" crc="3891781844" seo="true" mt="1476902160530" redirect="true"/>
+  <file name="02.html" crc="3771952403" seo="true" mt="1476902166557" redirect="true"/>
+  <file name="03.html" crc="3903568916" seo="true" mt="1476902173541" redirect="true"/>
+  <file name="04.html" crc="3812061796" seo="true" mt="1476902178280" redirect="true"/>
+  <file name="05.html" crc="346553769" seo="true" mt="1476902183315" redirect="true"/>
+  <file name="06.html" crc="170649518" seo="true" mt="1476902189872" redirect="true"/>
+  <file name="07.html" crc="4205609498" seo="true" mt="1476902195745" redirect="true"/>
+</manifest>
